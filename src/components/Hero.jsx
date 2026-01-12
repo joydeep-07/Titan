@@ -1,9 +1,11 @@
 import React from "react";
 import watch from "../assets/images/watch1.png";
+import Right from "./Right";
 
 const Hero = () => {
   return (
     <div className="flex justify-center items-center">
+        
       <section
         className="
         flex items-center justify-between      
