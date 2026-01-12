@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --bg-card: #faf9f8;
+  --text-primary: #1c1f2a;
+  --text-secondary: #6b6e76;
+  --border-light: #e1e2e5;
+  --accent-primary: #1f3a5f;
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --transition-smooth: all 0.3s ease;
+  --font-heading: "Marcellus", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body{
+  background-color: var(--bg-card);
+}
