@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav
       className="
-        relative flex items-center py-4 px-10
+       w-full flex items-center py-4 px-10 fixed top-0
         text-[var(--text-primary)]
       "
       style={{ fontFamily: "var(--font-body)" }}
