@@ -143,20 +143,18 @@ const Hero = () => {
 
         {/* RIGHT IMAGE */}
         <div className="relative z-20">
-         
-
           {/* Watch image */}
           <div className="relative z-30">
             <img
               src={watch}
-              alt="Praeludium Chronograph Watch"
-              className="w-[480px] drop-shadow-2xl transform duration-700"
+              alt="Praeludium Chronograph"
+              className="w-[480px] drop-shadow-[0_40px_80px_rgba(0,0,0,0.6)]/30"
             />
           </div>
 
           {/* Decorative text */}
-          <div className="absolute -right-20 top-1/2 -translate-y-1/2 opacity-10 z-0">
-            <span className="text-[8rem] font-bold tracking-widest whitespace-nowrap vertical-rl">
+          <div className="absolute right-15 top-1/3 -translate-y-1/2 opacity-10 z-0">
+            <span className="text-[8rem] font-bold tracking-wide whitespace-nowrap vertical-rl">
               SWISS MADE
             </span>
           </div>
